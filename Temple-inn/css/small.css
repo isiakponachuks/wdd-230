@@ -134,16 +134,15 @@ nav ul li.active a{
 }
 /* The layout styles for the grid functionality */
 
-.event1-home{
+.event1-home {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-color: tan;
-    text-align: left;
     padding: 2px;
 }
 
 
-.event2-home{
+.event2-home {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     background-color: tan;
@@ -172,9 +171,8 @@ nav ul li.active a{
     background-color: teal;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-
 }
+
 .temple{
     float: left;
     
@@ -184,8 +182,6 @@ nav ul li.active a{
     grid-column: 3 / 4;
     grid-row: 3 / 5;
     background-color:transparent;
-    
-
 }
 
 /* Hamburger Syntax */
@@ -199,8 +195,6 @@ nav ul li.active a{
     }
   }
   
-  
-
 nav ul {display: none;}
 nav ul.open {display: block;}
 
@@ -215,10 +209,7 @@ nav ul.open {display: block;}
     padding: 0px;
     list-style: none;
     background-color:#eceff1;
-    height: 100%;
-
-    
-   
+    height: 100%;  
 }
 
 /* Temple Directory */
@@ -315,172 +306,6 @@ form label.top, input:required:valid{
 
 }
 
-
-/*footer css design*/
-
-.site-footer {
-  background-color:#26272b;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
-}
-.site-footer hr{
-  border-top-color:#bbb;
-  opacity:0.5;
-}
-.site-footer hr.small{
-  margin:20px 0;
-}
-
-.site-footer h6 {
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px;
-}
-.site-footer a {
-  color:#737373;
-}
-
-.site-footer a:hover {
-  color:#3366cc;
-  text-decoration:none;
-}
-
-.footer-links {
-  padding-left:20px;
-  list-style:none;
-}
-
-.footer-links li {
-  display:block; 
-}
-
-.footer-links a {
-  color:#737373;
-
-}
-
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
-  color:#3366cc;
-  text-decoration:none;
-}
-
-.footer-links.inline li {
-  display:inline-block;
-}
-
-.site-footer .social-icons{
-  text-align:right;
-}
-
-.site-footer .social-icons a{
-  width:40px;
-  height:40px;
-  line-height:40px;
-  margin-left:6px;
-  margin-right:0;
-  border-radius:100%;
-  background-color:#33353d;
-
-}
-.copyright-text {
-  margin:0;}
-
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px;
-  }
-}
-
-@media (max-width:767px)
-{
-  .site-footer{
-    padding-bottom:0;
-  }
-
-  .site-footer .copyright-text,.site-footer .social-icons {
-    text-align:center;
-  }
-}
-
-.social-icons {
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none;
-}
-
-.social-icons li{
-  display:inline-block;
-  margin-bottom:4px;
-}
-
-.social-icons li.title{
-  margin-right:15px;
-  text-transform:uppercase;
-  color:#96a2b2;
-  font-weight:700;
-  font-size:13px;
-}
-
-.social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
-  font-size:16px;
-  display:inline-block;
-  line-height:44px;
-  width:44px;
-  height:44px;
-  text-align:center;
-  margin-right:8px;
-  border-radius:100%;
-  -webkit-transition:all .2s linear;
-  -o-transition:all .2s linear;
-  transition:all .2s linear;
-}
-
-.social-icons a:active,.social-icons a:focus,.social-icons a:hover{
-  color:#fff;
-  background-color:#29aafe;
-}
-
-.social-icons.size-sm a{
-  line-height:34px;
-  height:34px;
-  width:34px;
-  font-size:14px
-}
-
-.social-icons a.facebook:hover{
-  background-color:#3b5998;
-}
-
-.social-icons a.twitter:hover{
-  background-color:#00aced;
-}
-
-.social-icons a.linkedin:hover{
-  background-color:#007bb6;
-}
-
-.social-icons a.dribbble:hover{
-  background-color:#554249;
-}
-
-@media (max-width:767px){
-  .social-icons li.title
-  {
-    display:block;
-    margin-right:0;
-    font-weight:600;
-  }
-}
-
-
 /* Reception for Wedding Gallery */
 
 .main {
@@ -566,6 +391,133 @@ form label.top, input:required:valid{
     background-color: #f2f2f2;
     padding: 10px;
   }
+
+  .footer {
+    width: 100%;
+    background: #00121b;
+    display: block;
+   }
+  
+   .inner-footer {
+     width: 95%;
+     margin: auto;
+     padding: 30px 10px;
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     justify-content: center;
+   }
+  
+  .footer-items {
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  
+  .footer-items p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: normal;
+    color: #fff;
+  }
+  
+  .footer-items h1 {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .border1 {
+    height: 3px;
+    width: 40px;
+    background: #ff9800;
+    color: #ff9800;
+    background-color: #ff9800;
+    border: 0px;
+  }
+  
+  #side-bar {
+  list-style-type: circle;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0;	
+   }
+
+   .side-left {
+    list-style-type: circle;
+      color: black;
+      font-size: 12px;
+     
+        
+     }
+  ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  ul a:hover {
+    color: #ff9800;
+  }
+  
+  ul li {
+    margin: 10px;
+    height: 25px;
+  }
+  
+  li i {
+    margin-right: 20px;
+  }
+  
+  .social-media {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+  }
+  
+  .social-media i {
+    height: 25px;
+    width: 25px;
+    margin: 20px 10px;
+    padding: 4px;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  .social-media i:hover {
+    transform: scale(1.5);
+  }
+  
+  .footer-bottom {
+    padding: 10px;
+    background: #00121b;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  /* for tablet mode view */
+  
+  @media screen and (max-width: 1275px) {
+    .footer-items {
+      width: 50%;
+    }
+  }
+  
+  /* for mobile screen view */
+  
+  @media screen and (max-width: 660px) {
+    .footer-items {
+      width: 100%;
+    }
+  }
+  
   
   /* Create two columns that float next to eachother */
   .col {
