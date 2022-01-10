@@ -8,6 +8,7 @@ header {
   padding: 30px;
   font-size: 35px;
   color: white;
+  text-align: left;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
