@@ -51,7 +51,11 @@ color:#ffffff;
 
 }
 
-
+ul li {
+  
+  margin: 0px;
+  padding: 0px;
+}
 
 .card {
     width: 280px;
@@ -64,6 +68,25 @@ color:#ffffff;
     
       }
 
-      
+      .mock {
+        margin-left: 100px;
+   }
  
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+
+ button{float: left;
+   border-radius: -3px 0px 0px 0px;
+   border: 1px solid;
    
+   text-align: center;
+   padding-top:10px;
+   padding-right: 15px;
+   margin-bottom: 20px;
+   margin-left: 15px;
+   margin-right: -15px;
+ }
