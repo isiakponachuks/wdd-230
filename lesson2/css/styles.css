@@ -27,6 +27,7 @@ padding: 1em;
   .wrapper {
     display: block;
   }
+}
 
 #content {
 max-width: 960px;
@@ -49,6 +50,7 @@ color:white;
 border-radius: 15px 15px 0px 0px;
 padding: 10px; 
 }
+
 #side { background-color:black;
 color:#ffffff;
 }
@@ -68,6 +70,6 @@ color:#ffffff;
     
       }
 
-      
+    
  
    
