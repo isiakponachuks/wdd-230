@@ -23,7 +23,7 @@ padding: 1em;
   column-gap: 10px;
   }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
   .wrapper {
     display: block;
   }
