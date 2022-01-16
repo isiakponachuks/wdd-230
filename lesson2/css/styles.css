@@ -5,6 +5,7 @@ body {
 background-color: #5f9ea0;
 font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
 background-color:black;
 padding: 5px;
@@ -14,7 +15,7 @@ text-align: center;
 }
 
 main {
-background-color:#ffffff;
+background-color:white;
 padding: 1em;
 }
 .wrapper{
@@ -59,16 +60,8 @@ color:#ffffff;
 
 }
 
-.card {
-    width: 280px;
-    box-shadow: 1px 1px 4px 1px #888;
-    border-radius: 3px 0 0 3px;
-    background-color: white; 
-    overflow: hidden;
-    margin: auto;
-    padding: 0;
-    
-      }
+
+      
 
     
  
