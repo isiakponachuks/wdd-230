@@ -18,15 +18,33 @@ main {
 background-color:white;
 padding: 1em;
 }
+
 .wrapper{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
+  column-gap: 1em;
   }
+
+  .wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    }
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    display:grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  }
+}
 
 @media screen and (max-width: 550px) {
   .wrapper {
-    display: block;
+    display:grid;
+  grid-template-columns: 1fr;
+  column-gap: 1em;
+  column-fill: auto;
   }
 }
 
