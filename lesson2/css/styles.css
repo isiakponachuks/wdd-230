@@ -37,6 +37,7 @@ padding: 1em;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
   }
+  
 }
 
 @media screen and (max-width: 550px) {
@@ -44,7 +45,6 @@ padding: 1em;
   display:grid;
   grid-template-columns: 1fr;
   column-gap: 1em;
-  
   }
 }
 
