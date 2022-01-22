@@ -19,25 +19,24 @@ background-color:white;
 padding: 1em;
 }
 
-.wrapper{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 1em;
-  }
-
   .wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1em;
     }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   .wrapper {
     display:grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
-  }
   
+  }
+ .solve{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   text-align: center;
+ }
 }
 
 @media screen and (max-width: 550px) {
@@ -81,7 +80,8 @@ color:#ffffff;
 img {
 max-width: 100%;
 }
-      
+
+
 
     
  
