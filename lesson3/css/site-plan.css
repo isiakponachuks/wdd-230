@@ -113,7 +113,7 @@
   }
   
   .sitemap {
-    display: flex;
+    display:grid;
     justify-content: center;
   
     grid-template-columns: repeat(6, 15%);
