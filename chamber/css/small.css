@@ -3,9 +3,66 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
-h1, p {margin: 0 2vw;
+body {
+	padding: 0;
+	margin: 0;
 }
+
+header,footer {
+        background-color: #fff;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 900px;
+        margin: 0 auto;
+        border-bottom: 0px solid #bbb;
+    }
+
+    #datetime{
+        background-color: aqua;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    
+    .logo img {
+        width: 80px;
+        height: auto;
+    }
+    
+    .headings {
+        display: flex;
+        flex-direction: column;
+        margin-left: .5rem;
+    }
+    
+    .headings h1 {
+        font-size: 1.5rem;
+    }
+
+    .snow {
+        letter-spacing: 1pt;
+        color: forestgreen;
+        font-weight: 700;
+        font-size: 0.8rem;
+    }
+    .social {
+        margin-right: 1.5rem;
+        
+    }
+    
+    .social svg {
+        width: 25px;
+        height: auto;
+    }
+    
+
 
 nav button {
     margin: .2rem 2vw;
@@ -13,17 +70,21 @@ nav button {
 }
 
 nav {
-    background-color:#eeee;
+	background-color: #ffffee;
+	margin: 0 auto;
+	max-width: 780px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
+    nav ul {
+        list-style: none;
+        display: grid;
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+      }
 
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 nav ul li a {
     display: block;
-    padding: .8rem 2vw;
+    padding: .8rem 3.3vw;
     text-decoration: none;
     color: #333;
     border-top: 1px solid rgba(0,0,0,0.5);
@@ -37,6 +98,13 @@ nav ul li .active a{
     background-color: rgba(0,0,0,0.2);
     color:#fff;
 }
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+  }
+  
 
 nav ul {display: none;}
 nav ul.open {display: block;}
