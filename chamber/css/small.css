@@ -5,21 +5,37 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
+main {
+    background-color: #ffffff;
+    padding: 1em;
+  }
 body {
 	padding: 0;
-	margin: 0;
+    margin: 0;
+    background-color: #e4b03a;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header,footer {
-        background-color: #fff;
-        padding: 5px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        max-width: 900px;
-        margin: 0 auto;
-        border-bottom: 0px solid #bbb;
-    }
+#content {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+header {
+	background-color:#aabd8c;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	
+	margin: 0 auto;
+}
+.home-address{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
 
     #datetime{
         background-color: aqua;
@@ -30,7 +46,7 @@ header,footer {
         align-items: center;
         margin-left: 1rem;
     }
-    
+
     .logo img {
         width: 80px;
         height: auto;
@@ -53,7 +69,7 @@ header,footer {
         font-size: 0.8rem;
     }
     .social {
-        margin-right: 1.5rem;
+        margin-left: 1.5rem;
         
     }
     
@@ -70,41 +86,64 @@ nav button {
 }
 
 nav {
-	background-color: #ffffee;
+	background-color: #aabd8c;
 	margin: 0 auto;
 	max-width: 780px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
     nav ul {
-        list-style: none;
-        display: grid;
-        margin: 0;
-        grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-      }
+    list-style: none;
+  display: grid;
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+}
 
 nav ul li a {
     display: block;
-    padding: .8rem 3.3vw;
+    padding: .8rem 2.5vw;
     text-decoration: none;
     color: #333;
-    border-top: 1px solid rgba(0,0,0,0.5);
+    border-top: 2px solid rgba(0,0,0,0.5);
 }
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
-nav ul li .active a{
+nav ul li.active a{
     background-color: rgba(0,0,0,0.2);
     color:#fff;
 }
 
-.home-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1em;
+.banner {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(16, 243, 243);
   }
   
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 0.5em;
+  }
+  
+  footer{
+    background-color:#aabd8c;
+	padding: 5px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+	align-items: center;
+	
+	margin: 0 auto;
+  }
+  #lastModified {
+	text-align: center;
+	font-size: smaller;
+}
+
+
 
 nav ul {display: none;}
 nav ul.open {display: block;}
