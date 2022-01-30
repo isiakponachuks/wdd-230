@@ -25,15 +25,25 @@
     
 </head>
 <body>
-    <div id="content">
+<div id="content">
     
 <!-- HEADER HERE -->
 	<header>
- <div class="logo"><picture><img src="images/beach.png"  alt="company-logo"></picture>
-<section class="headings"><h1>De-Chamber of Anioma Biz</h1>
-<q class="snow">Showcasing our heritage!</q>
+ <div class="logo"><picture></picture><img src="images/beach.png"  alt="company-logo"></picture>
+<section class="headings"><h1>Anioma Chamber</h1><q class="snow">Our Heritage!</q>
 </section>
  </div>
+ <nav>
+    <button  id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <ul id="primarynav">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>        
+    </ul>
+</nav>
+
 <div class="social">
     <a href="https://facebook.com"><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.0" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g>
@@ -59,21 +69,14 @@
         </svg></a>
     
     </div>
-<div>
+    <div class="banner"><date></date></div>
+    
+   
+
 <!-- NAVIGATION HERE -->
-    <nav>
-        <button  id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primarynav">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>        
-        </ul>
-    </nav>
+    
     
     </header>
-    <div class="banner"><date></date></div>
 <main>
     
    
@@ -126,11 +129,12 @@
     <!-- FOOTER HERE -->
     <footer>
             
-        <p>&copy; 2022 |Isiakpona Chuks | WDD 230 | Point De-Chamber of Anioma Buisness | <span id="lastModified">Last Modification:</span> </p>
+        &copy; 2022 |Isiakpona Chuks | WDD 230 | Point De-Chamber of Anioma Buisness |<span id="lastModified"></span> 
     </footer>
 </main>
     
 <script src="js/scripts.js"></script>
+<script src="js/lastmodified.js"></script>
 </div>
 </body>
 </html>
