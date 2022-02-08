@@ -24,51 +24,62 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
+   
   }
 
-
 header {
-	background-color:#aabd8c;
-    display: flex;
-    justify-content: space-between;
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
 	align-items: center;
-	padding: 40px 0px;
+	justify-content: space-between;
 	margin: 0 auto;
+    border-bottom: 1px solid #bbb;
+    max-width: 960px;
+	
+}
+
+li, a, button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ecdf0f;
+    text-decoration: none;
 }
 .home-address{
     display: grid;
     grid-template-columns: 1fr 1fr;
 
 }
-
     #datetime{
         background-color: aqua;
     }
 
     .logo {
+        cursor: pointer;
         display: flex;
-        align-items: left;
-        margin-left: 1rem;
-    }
+	    align-items: center;
+	    margin-left: 1rem;
+}
+    
 
     .logo img {
         width: 80px;
         height: auto;
     }
-    
     .headings {
         display: flex;
-        flex-direction: column;
-        margin-left: .5rem;
+	    flex-direction: column;
+	    margin-left: .5rem;
     }
     
     .headings h1 {
-        font-size: 0.5rem;
+        font-size: 1.5rem;
     }
 
     .snow {
         letter-spacing: 1pt;
-        color:#ffffff;
+        color:#866d6d;
         font-weight: 100;
         font-size: 0.2rem;
     }
@@ -82,36 +93,35 @@ header {
         height: auto;
     }
     
-
-
 nav button {
-    margin: .2rem 2vw;
+    margin: .8rem 2.5vw;
     background-color: transparent;
 }
 
 nav {
 	background-color: #aabd8c;
 	margin: 0 auto;
-	max-width: 700px;
+	max-width: 650px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
     nav ul {
-    list-style: none;
-  display: inline-block;
-  margin: 0;
+    list-style-type: none;
+    display: inline-block;
+    padding:0px 15px;
+ 
   
 }
 
 nav ul li a {
-    display: block;
-    padding: .8rem 2.5vw;
+    display: inline-block;
+    padding: .2rem 2.0vw;
     text-decoration: none;
     color: #333;
     border-top: 2px solid rgba(0,0,0,0.5);
 }
 
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color:#fff45f;
 }
 
 nav ul li.active a{
@@ -122,9 +132,6 @@ nav ul li.active a{
 .banner {
     display: flex;
     justify-content: center;
-    
-
-    
     background-color: rgb(16, 243, 243);
   }
   
@@ -138,9 +145,7 @@ nav ul li.active a{
   footer{
     background-color:#aabd8c;
 	padding: 5px 0;
-
 	align-items: center;
-	
 	margin: 0 auto;
   }
   #lastModified {
