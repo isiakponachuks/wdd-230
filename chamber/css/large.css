@@ -16,4 +16,10 @@
 		display: flex;
 		justify-content: left;
 	}
+	.home-grid {
+		display:grid;
+	  grid-template-columns: 1fr 2fr 1fr;
+	  column-gap: 1em;
+	  
+	  }
 }

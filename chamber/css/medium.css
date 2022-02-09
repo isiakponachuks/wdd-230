@@ -1,12 +1,9 @@
 @media only screen and (min-width:40rem){
-
-
-
 nav button {display: none;}
 
 nav ul#primarynav {
     display:flex;
-    justify-content: center;
+    justify-content: left;
     margin-left: 0vw;
     border-left: 1px solid rgba(0,0,0,0.3);
 }
@@ -17,9 +14,15 @@ nav ul li a {
 }
 
     .home-grid {
-      display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    display:grid;
+    grid-template-columns: 2fr;
     column-gap: 1em;
     
     }
-}
+    .home-grid {
+      display: block;
+    }
+    .home-grid,nav ul,{
+      display: block;
+    }
+  }
