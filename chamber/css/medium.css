@@ -22,7 +22,7 @@ nav ul li a {
     .home-grid {
       display: block;
     }
-    .home-grid,nav, ul,{
+    .home-grid,nav, ul{
       display: block;
     }
   }
