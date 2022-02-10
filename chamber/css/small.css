@@ -167,10 +167,14 @@ nav ul li.active a{
     color:#fff;
 }
 
-.time {
+.time-date {
     display: flex;
-   
-    background-color: rgb(16, 243, 243);
+    flex-flow: column;
+    background-color: rgb(105, 101, 101);
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+
   }
   
 

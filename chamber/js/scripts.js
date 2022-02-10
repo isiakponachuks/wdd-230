@@ -7,7 +7,7 @@ const x = document.getElementById('hamburgerBtn')
 
 x. onclick = toggleMenu;
 
-const datefield = document.querySelector("date");
+const datefield = document.getElementById("date");
 
 
 // derive the current date using a date object
