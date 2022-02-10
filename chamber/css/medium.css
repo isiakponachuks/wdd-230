@@ -15,14 +15,14 @@ nav ul li a {
 
     .home-grid {
     display:grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     column-gap: 1em;
     
     }
     .home-grid {
       display: block;
     }
-    .home-grid,nav ul,{
+    .home-grid,nav, ul,{
       display: block;
     }
   }

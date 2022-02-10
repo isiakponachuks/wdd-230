@@ -22,7 +22,7 @@ body {
 .container {
     position: relative;
     max-width: 800px; /* Maximum width */
-    margin: 0 auto;
+    margin: 0;
     grid-column: 1 / 4;
     grid-row: 1 / 4; 
     border: 0px solid #cccccc;
@@ -266,7 +266,7 @@ nav ul li.active a{
     .home-grid {
       display: block;
     }
-    .home-grid,nav ul,{
+    .home-grid,nav, ul,{
       display: block;
     }
   }
