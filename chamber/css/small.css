@@ -167,9 +167,9 @@ nav ul li.active a{
     color:#fff;
 }
 
-.banner {
+.time {
     display: flex;
-    justify-content: center;
+   
     background-color: rgb(16, 243, 243);
   }
   
