@@ -63,6 +63,11 @@ header
     max-width: 1200px;
 	
 }
+.clearfix{
+    content:"";
+    display: table;
+    clear: both;
+}
 
 footer {
     background-color: #808080;
