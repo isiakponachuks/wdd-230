@@ -1,5 +1,5 @@
-let = parseFloat(document.querySelector('#t').textContent);
-let = parseFloat(document.querySelector('#s').textContent);
+let t = parseFloat(document.querySelector('#t').textContent);
+let s = parseFloat(document.querySelector('#s').textContent);
 let windchill = '';
 
 if (t <=50 && s > 3){
