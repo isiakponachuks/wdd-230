@@ -80,6 +80,9 @@ footer {
     text-align: center;
 	
 }
+.portal{
+    color:red;
+}
 
 .lastlist{
     display: flex;
@@ -103,6 +106,22 @@ li, a, button{
 	    align-items: center;
 	    margin-left: 1rem;
 }
+
+.label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: red;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.today {
+	color:red;
+}
+
     
 
     .logo img {
