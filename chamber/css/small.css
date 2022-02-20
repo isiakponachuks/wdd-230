@@ -122,6 +122,14 @@ li, a, button{
 	color:red;
 }
 
+.opac{
+    width:300px;
+    height:auto;
+    -webkit-transition: .6s ease-in-out;
+    transition: .6s ease-in-out;
+
+}
+
     
 
     .logo img {
