@@ -296,7 +296,7 @@ nav ul li.active a{
 
 .counter{
     text-align: center;
-    padding: 2px auto;
+    padding: 25px 0;
 }
 
 @media screen and (max-width: 550px) {
