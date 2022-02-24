@@ -112,7 +112,7 @@ li, a, button{
 	font-weight: 700;
 }
 
-#visits {
+.visits {
 	color: red;
 	font-weight: bolder;
 	font-size: larger;
@@ -292,6 +292,11 @@ nav ul li.active a{
 	text-align: center;
     font-size: smaller;
     color: red;
+}
+
+.counter{
+    text-align: center;
+    padding: 2px auto;
 }
 
 @media screen and (max-width: 550px) {
