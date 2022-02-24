@@ -26,3 +26,18 @@ img {
     filter: blur(0em);
     transition: filter 0.30s;
 }
+
+#label {
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	color: red;
+	font-weight: bolder;
+	font-size: larger;
+}
+
+#today {
+	color:red;
+}

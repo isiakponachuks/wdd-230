@@ -107,21 +107,6 @@ li, a, button{
 	    margin-left: 1rem;
 }
 
-.label {
-	font-family: Arial, sans-serif;
-	font-weight: 700;
-}
-
-.visits {
-	color: red;
-	font-weight: bolder;
-	font-size: larger;
-}
-
-.today {
-	color:red;
-}
-
 .opac{
     width:300px;
     height:auto;
