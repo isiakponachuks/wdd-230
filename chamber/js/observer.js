@@ -35,3 +35,5 @@ if('IntersectionObserver' in window){
         loadImage(image);
     });
 }
+
+
