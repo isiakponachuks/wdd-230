@@ -24,7 +24,7 @@
 
 img {
     filter: blur(0em);
-    transition: filter 0.30s;
+    transition: filter 0.50s;
 }
 
 #label {
