@@ -341,11 +341,14 @@ form label.top input, form label.top select{
 
 }
 
-form label.sbs{
+
+/*form label.sbs{
     display: block;
     padding: .75rem 0;
     color: #555;
+
 }
+*/
 
 form input.submitBtn {
     border: none;
@@ -364,14 +367,15 @@ form label.top input:required{
 }
 
 form label.top, input:required:valid{
-    border-left: green solid 6px;
+    border-left:green solid 0px;
 
 }
 
+/*
 form label.sbs{
     padding:.4rem 0;
 }
-
+*/
 
 
 
