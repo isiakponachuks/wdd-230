@@ -371,6 +371,28 @@ form label.top, input:required:valid{
 
 }
 
+.cards {
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  background-color: lightgray;
+}
+
+.cards section{
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #D9D9F3;
+  overflow: hidden;
+}
+
+.cards section img{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+
+
+
 /*
 form label.sbs{
     padding:.4rem 0;
