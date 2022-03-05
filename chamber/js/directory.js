@@ -18,17 +18,19 @@ fetch(requestURL)
         let website = document.createElement('p');
 
         h2.textContent = companies[i].name;
+        image.setAttribute('src', companies[i].imageurl);
         Address.textContent = 'Address: ' + companies[i].Address;
         Phone.textContent += 'Phone: ' + companies[i].Phone;
         website.textContent += 'Website: ' + companies[i].website;
-        image.setAttribute('src', companies[i].imageurl);
+        
         
 
         card.appendChild(h2);
+        card.appendChild(image);
         card.appendChild(Address);
         card.appendChild(Phone);
         card.appendChild(website);
-        card.appendChild(image);
+       
 
         document.querySelector('div.cards').appendChild(card);
         
