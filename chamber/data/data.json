@@ -1,0 +1,102 @@
+{
+    "companies": [
+        {
+            "name": "Halogen Limited",
+            "Address": "17 Forces Avenue Port Harcourt",
+            "Phone":  "+234090345674356",
+            "website": "www.halogenltd.org",
+            "image": "images/"
+
+
+        },
+
+        {
+            "name": "Highertop Limited",
+            "Address": "121 East West Road Port Harcourt",
+            "Phone":  "+234080345674356",
+            "website": "www.highertoplimited.org",
+            "image": "images/"   
+        },
+
+        {
+            "name": "Providing Enterprises",
+            "Address": "60 Police Post Rumuodomaya Port Harcourt",
+            "Phone":  "+2340803456747666",
+            "website": "www.providingent.org",
+            "image": "images/"
+
+        },
+
+        {
+            "name": "Excell Limited",
+            "Address": "50 Airport Road Port Harcourt",
+            "Phone":  "+234070345674356",
+            "website": "www.excelllimited.org",
+            "image": "images/"
+        },
+
+        {
+            "name": "Enrichedeva Enterprises",
+            "Address": "International Market Obio/Akpor Port Harcourt",
+            "Phone":  "+234070343374356",
+            "website": "www.halogenltd.org",
+            "image": "images/"
+        },
+
+        {
+            "name": "Onisokky Enterprises",
+            "Address": "JK Mbiama Rivers State",
+            "Phone":  "+234080545674356",
+            "website": " ",
+            "image": "images/"
+        },
+
+        {
+            "name": "Sammylaff Entertainment",
+            "Address": "17 Forces Avenue Port Harcourt",
+            "Phone":  "+234090345674356",
+            "website": "www.halogenltd.org",
+            "image": "images/"
+        },
+
+        {
+            "name": "Mavicon Global Services",
+            "Address": "30 Airport Road Port Harcourt",
+            "Phone":  "+234071345674356",
+            "website": "www.maviconglobal.org",
+            "image": "images/"
+        },
+
+        {
+            "name": "MCC Construction Company",
+            "Address": "17 Ikwerre Road Port Harcourt",
+            "Phone":  "+234080345674346",
+            "website": "www.mcc.org",
+            "image": "images/"
+        },
+
+        {
+            "name": "Marvelous Chemical",
+            "Address": "International Market Obio/Akpor Port Harcourt",
+            "Phone":  "+234090345674356",
+            "website": "www.marvelouschem.org",
+            "image": "images/"
+        },
+
+        {
+            "name": "Fresh Farms Limited",
+            "Address": "Omagwe Airport Omagwe Port Harcourt",
+            "Phone":  "+234070345673356",
+            "website": "www.freshfarm.com",
+            "image": "images/"
+        },
+
+        {
+            "name": "Cedar Court School",
+            "Address": "Check Point Aluu Junction Port Harcourt",
+            "Phone":  "+234090345674356",
+            "website": "www.ccbis.edu",
+            "image": "images/"
+        }
+    ]
+}
