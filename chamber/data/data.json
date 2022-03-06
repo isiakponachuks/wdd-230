@@ -15,7 +15,7 @@
             "Address": "121 East West Road Port Harcourt",
             "Phone":  "+234080345674356",
             "website": "www.highertoplimited.org",
-            "image": "images/"   
+            "imageurl": "https://img.icons8.com/doodle/2x/small-business--v1.png"   
         },
 
         {
@@ -23,7 +23,7 @@
             "Address": "60 Police Post Rumuodomaya Port Harcourt",
             "Phone":  "+2340803456747666",
             "website": "www.providingent.org",
-            "imageurl": "https://icons8.com/icon/d0fIYK64XdvR/office.png"
+            "imageurl": "https://img.icons8.com/doodle/2x/vertical-timeline.png" 
 
         },
 
@@ -40,7 +40,7 @@
             "Address": "International Market Obio/Akpor Port Harcourt",
             "Phone":  "+234070343374356",
             "website": "www.halogenltd.org",
-            "image": "images/"
+            "imageurl": "https://img.icons8.com/doodle/2x/pie-chart--v1.png"
         },
 
         {
@@ -48,7 +48,7 @@
             "Address": "JK Mbiama Rivers State",
             "Phone":  "+234080545674356",
             "website": " ",
-            "image": "images/"
+            "imageurl": "https://img.icons8.com/doodle/2x/process.png" 
         },
 
         {
@@ -56,7 +56,7 @@
             "Address": "17 Forces Avenue Port Harcourt",
             "Phone":  "+234090345674356",
             "website": "www.halogenltd.org",
-            "image": "images/"
+            "imageurl": "https://img.icons8.com/doodle/2x/planner.png"
         },
 
         {
@@ -64,7 +64,7 @@
             "Address": "30 Airport Road Port Harcourt",
             "Phone":  "+234071345674356",
             "website": "www.maviconglobal.org",
-            "image": "images/"
+            "imageurl": "https://img.icons8.com/doodle/2x/company--v1.png"
         },
 
         {
@@ -72,7 +72,7 @@
             "Address": "17 Ikwerre Road Port Harcourt",
             "Phone":  "+234080345674346",
             "website": "www.mcc.org",
-            "image": "images/"
+            "image": "https://img.icons8.com/doodle/2x/coaching.png"
         },
 
         {
@@ -80,7 +80,7 @@
             "Address": "International Market Obio/Akpor Port Harcourt",
             "Phone":  "+234090345674356",
             "website": "www.marvelouschem.org",
-            "image": "images/"
+            "imageurl": "https://img.icons8.com/doodle/2x/tax.png"
         },
 
         {
@@ -88,7 +88,7 @@
             "Address": "Omagwe Airport Omagwe Port Harcourt",
             "Phone":  "+234070345673356",
             "website": "www.freshfarm.com",
-            "image": "images/"
+            "image": "https://img.icons8.com/doodle/2x/euro-pound-exchange--v1.png"
         },
 
         {
@@ -96,7 +96,7 @@
             "Address": "Check Point Aluu Junction Port Harcourt",
             "Phone":  "+234090345674356",
             "website": "www.ccbis.edu",
-            "image": "images/"
+            "imageurl": "https://img.icons8.com/doodle/2x/critical-thinking.png"
         }
     ]
 }
