@@ -230,40 +230,40 @@ nav ul li.active a{
   .home-event-1{
       grid-column: 1 / 2;
       grid-row: 1 / 2;
-      background-color: blue;
+      background-color: cyan;
       text-align: center;
   }
 
   .home-event-2{
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    background-color: blue;
+    background-color: cyan;
     text-align: center;
   }
 
   .home-event-3{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    background-color: blue;
+    background-color: cyan;
     text-align: center;
   }
   .home-event-4{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-    background-color: blue;
+    background-color: cyan;
     text-align: center;
   }
 
   .home-event-5{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
-    background-color: blue;
+    background-color: cyan;
     text-align: center;
   }
   .home-event-6{
     grid-column: 3 / 4;
     grid-row: 3 / 4;
-    background-color: blue;
+    background-color: cyan;
     text-align: center;
   }
   
