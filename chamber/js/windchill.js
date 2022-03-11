@@ -34,6 +34,10 @@ document.getElementById('windChill').innerHTML = windChill;
 
 */
 
+let windChill = Math.round(windChill);
+
+document.getElementById('windChill').innerHTML = windChill;
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Nigeria,lagos&APPID=8dc8da65a8bf4742511f5faaf0ae532f";
 fetch(apiURL)
   .then((response) => response.json())
