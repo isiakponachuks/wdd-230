@@ -12,7 +12,9 @@ else {
     windchill ='N/A';
 }
 
+document.getElementById('windChill').innerHTML = windChill;
 document.querySelector('#w').innerHTML = windchill;
+
 function windChill(temp,speed){ 
     return Math.pow(s,0.16) 
 }
