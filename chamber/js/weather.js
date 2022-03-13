@@ -1,4 +1,5 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Nigeria,lagos&APPID=8dc8da65a8bf4742511f5faaf0ae532f";
+const apiURL =
+"https://api.openweathermap.org/data/2.5/weather?q=Nigeria,lagos&APPID=8dc8da65a8bf4742511f5faaf0ae532f&units=metric";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
