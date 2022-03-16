@@ -1,5 +1,5 @@
 const apiURL =
-"https://api.openweathermap.org/data/2.5/weather?q=Nigeria,lagos&APPID=8dc8da65a8bf4742511f5faaf0ae532f&units=metric";
+"https://api.openweathermap.org/data/2.5/weather?q=Lagos,ng&APPID=8dc8da65a8bf4742511f5faaf0ae532f";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -7,7 +7,7 @@ fetch(apiURL)
     document.querySelector('#current-temp').textContent = Math.round(jsObject.main.temp_max - 273.15 );
 
 
-let degree = (jsObject.main.temp_max - 32) *5/9;
+let degree = (jsObject.main.temp_max - 32) * 5/9;
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 const desc = jsObject.weather[0].description;
 
@@ -16,9 +16,9 @@ document.querySelector('#icon-src').textContent = iconsrc;
 document.querySelector('#weathericon').setAttribute('src', iconsrc);
 document.querySelector('#weathericon').setAttribute('alt', desc);
 document.querySelector('figcaption').textContent = desc;
-  });
 
-/*const t = Math.round(jsObject.main.temp_max - 273.15 );
+
+const t = Math.round(jsObject.main.temp_max - 273.15 );
 const s =  jsObject.wind.speed;
 
 if(t <= 50 && s > 3) {
@@ -29,4 +29,3 @@ else {
     document.querySelector("#windchill").innerHTML = "N/A"
 }
   });
-  */
