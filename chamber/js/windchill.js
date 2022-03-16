@@ -22,5 +22,5 @@ if(t <= 50 && s > 3) {
     document.querySelector("#windchill").innerHTML = `${Math.round(windchill)}&#176;`;
 }
 else {
-        document.querySelector("#windchill").innerHTML = "N/A"
+        document.querySelector("#windchill").innerHTML = "N/A";
     }
