@@ -79,12 +79,12 @@
     height: 5em;
   }
   
-  .butt {
+  .check {
     /* Align buttons with the text fields */
     padding-left: 90px; /* same size as the label elements */
   }
   
-  #butts {
+  #check {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
@@ -103,6 +103,12 @@
   }
   .moveDown {
       margin-top: 3em;
+  }
+
+  .contact{
+      text-align: center;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
   }
                         
       </style>
@@ -166,6 +172,12 @@
 <div id="content"> 
     <div class="time-date"><span id="date"></span></div>      
 <main>
+    <div class="contact">
+    <p><img src="images/location.jpg" width="25" height="20" alt="phone-number">No.7 Idumuje Community, Onicha-Olona,</p>
+    <p>P.M.B 2134, Asaba, Delta-State.</p>
+    <p><img src="images/phone.png" width="25" height="20" alt="phone-number"> +234 809-8907-567</p>
+    <p><img src="images/mail.png" width="25" height="20" alt="phone-number">info@aniomachamber.com</p>
+    </div>
         <form action="/my-handling-form-page" method="post">
             <ul>
         <li>
@@ -180,13 +192,15 @@
           <label for="msg">Message:</label>
           <textarea id="msg" name="user_message"></textarea>
         </li>
-        <li class="butt">
-        <button id="butts" type="sub">Send your message</button>
-      </li>
-       </ul>
-          
+       <li class="check">
+            <input type="submit" value="Submit" class="submitBtn">
+        </li>
+        </ul>
+       
+    
       
           </form>
+          
 
 
 </main>
