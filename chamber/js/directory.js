@@ -9,7 +9,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const companies = jsonObject['companies'];
-    for (let i = 0; i <companies.length; i++ ) {
+    for (let i = 0; i < companies.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
