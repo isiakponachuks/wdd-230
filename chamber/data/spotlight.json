@@ -1,0 +1,18 @@
+{
+    "directory": [
+        {
+            "name": "Halogen Limited",
+            "Phone":  "+234090345674356",
+            "website": "www.halogenltd.org",
+            "imageurl": "https://img.icons8.com/stickers/2x/small-business.png"
+        },
+        {
+            "name": "Highertop Limited",
+            "Phone":  "+234080345674356",
+            "website": "www.highertoplimited.org",
+            "imageurl": "https://img.icons8.com/doodle/2x/small-business--v1.png"   
+        }
+
+        
+    ]
+}
