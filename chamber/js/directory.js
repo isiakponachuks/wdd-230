@@ -9,7 +9,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const companies = jsonObject['companies'];
-    for (let i = 0; i < companies.length; i++ ) {
+    for (let i = 0; i < directory.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
@@ -17,11 +17,11 @@ fetch(requestURL)
         let Phone = document.createElement('p');
         let website = document.createElement('p');
 
-        h2.textContent = companies[i].name;
-        image.setAttribute('src', companies[i].imageurl);
-        Address.textContent = 'Address: ' + companies[i].Address;
-        Phone.textContent += 'Phone: ' + companies[i].Phone;
-        website.textContent += 'Website: ' + companies[i].website;
+        h2.textContent = directory[i].name;
+        image.setAttribute('src', directory[i].imageurl);
+        Address.textContent = 'Address: ' + directory[i].Address;
+        Phone.textContent += 'Phone: ' + directory[i].Phone;
+        website.textContent += 'Website: ' + directory[i].website;
         
         
 
