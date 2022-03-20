@@ -1,5 +1,3 @@
-
-
 const requestURL = 'https://isiakponachuks.github.io/wdd-230/chamber/data/data.json';
 
 fetch(requestURL)
@@ -8,7 +6,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const companies = jsonObject['companies'];
+
+    const directory = jsonObject['directory'];
     for (let i = 0; i < directory.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
