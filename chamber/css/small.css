@@ -320,6 +320,10 @@ nav ul.open {display: block;}
    
 }
 
+.contact{
+    padding: 0px 35px 0px 35px;
+}
+
 
 /* Form design for CSS */
 form fieldset {

@@ -15,7 +15,7 @@ let companiesFiltered = directory.filter(i => i.membership == 'gold' || i.member
         
     const companies = jsonObject['directory'];
 
-    for (let i = 11; i < directory.length; i++) {
+    for (let i = 11; i < directory.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
@@ -34,9 +34,9 @@ let companiesFiltered = directory.filter(i => i.membership == 'gold' || i.member
         card.appendChild(website);
        
 
-        
+        document.querySelector('#cards').appendChild(card);
 
-        document.querySelector('#spotlight').appendChild(card);
+       
         
     }
   });
