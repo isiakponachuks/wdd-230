@@ -19,7 +19,6 @@ let companiesFiltered = directory.filter(i => i.membership == 'gold' || i.member
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
-        
         let Phone = document.createElement('p');
         let website = document.createElement('p');
 

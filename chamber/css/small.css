@@ -258,12 +258,14 @@ nav ul li.active a{
     text-align: center;
   }
 
-  .home-event-5{
+ .home-event-5{
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     background-color: cyan;
     text-align: center;
-  }
+ }
+
+  
   .home-event-6{
     grid-column: 3 / 4;
     grid-row: 3 / 4;
