@@ -411,6 +411,20 @@ form label.top, input:required:valid{
   box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
 }
 
+#spotlight{
+color: #9c2c13;
+margin: 0.25rem;
+padding: 0.35rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#spotlight > p{
+min-height: 20px;
+
+}
 
 
 

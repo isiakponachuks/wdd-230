@@ -17,6 +17,7 @@ let companiesFiltered = directory.filter(i => i.membership == 'gold' || i.member
 
     for (let i = 11; i < directory.length; i++) {
         let card = document.createElement('section');
+        let spot = document.createElement('section');
         let h2 = document.createElement('h2');
         let image = document.createElement('img');
         let Phone = document.createElement('p');
@@ -32,10 +33,15 @@ let companiesFiltered = directory.filter(i => i.membership == 'gold' || i.member
         card.appendChild(Phone);
         card.appendChild(website);
        
+        spot.appendChild(h2);
+        spot.appendChild(image);
+        spot.appendChild(Phone);
+        spot.appendChild(website);
 
         
 
         document.querySelector('#spotlight').appendChild(card);
+        document.querySelector('#cards').appendChild(spot);
         
     }
   });
