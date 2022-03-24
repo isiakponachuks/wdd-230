@@ -82,29 +82,30 @@
     <div class="time-date"><span id="date"></span></div>  
 
 <main>
-        <h1>Join | Confirmation page</h1>
+        <h3>Join | Confirmation page</h3>
         <form method="GET" action="thanks.html">
                 <fieldset>
                 <legend>Contact Infomation</legend>
                 <label class="top"> First Name * <input type="text" name="fname" required></label>
            <label class="top">Last Name* <input type="text" name="lname" required></label>
-           <label class="top">Position:<input type="text" name="position" pattern="[a-zA-Z ]{5,}" 
-            maxlength="30"></label>
+           <label class="top">Position *<input type="text" name="position" pattern="[a-zA-Z ]{5,}" maxlength="30" required></label>
             <label class="top"> Email * <input type="email" name="email" placeholder="someemail@mail.com" required></label>
            <label class="top"> Phone <input type="tel" name="phone" placeholder="234-806-1646-565"></label>
-           <label class="top"> Business Name / Title *<input type="textfield" name="text/title" required></label>
-           <label class="top">Brief Business History:<br><textarea id="description" name="description" rows="3" cols="50"></textarea></label>
+           <label class="top"> Business Name / Title *<input type="text" name="text/title" required></label>
+           <label class="top">Brief Business History:<br><textarea id="description" name="description" rows="3" cols="50">
+
+           </textarea></label>
            <label class="top">Membership Level
             <select name="subject">
                     <option value="select">Please Select &#9662; </option>
-                <option value="non-profit">NP Membership </option>
-                <option value="bronze">Bronze Membership</option>
-                <option value="silver">Silver Membership</option>
-                <option value="gold">Gold Membership</option>
+                <option value="non-profit">NP Membership Free</option>
+                <option value="bronze">Bronze Membership$15</option>
+                <option value="silver">Silver Membership $30</option>
+                <option value="gold">Gold Membership $50</option>
             </select> 
         </label>
                 </fieldset>
-                <input type="hidden" id="date" name="date" value="CurrentDate">
+                <input type="hidden" id="free" name="date" value="CurrentDate">
                 <input type="hidden" id="time" name="Time" value="CurrentTime">
 
 
@@ -115,7 +116,7 @@
     <footer>
 
         <section class="lastlist"><div class="logo"><picture><img src="images/beach.png"  alt="company-logo"></picture>
-           <h2>Address:</h2>
+           
             <p class="contact"><strong>De-Chamber of Anioma Biz </strong><br>No. 70 Idumuje Community, Onicha-Olona.<br>
                                     PMB 2134 Asaba, Delta State.</p>
             <p class="contact"><strong>De-Chamber of Anioma Biz </strong><br>No. 70 Idumuje Community, Onicha-Olona.<br>
