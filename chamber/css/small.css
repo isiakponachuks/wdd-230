@@ -431,6 +431,15 @@ min-height: 20px;
     color: red;
 }
 
+.iframe {
+    border: 1px solid black; 
+    width: 100%;
+    width: 50%; 
+    margin-top: 50px;
+    
+}
+
+
 
 /*
 form label.sbs{
