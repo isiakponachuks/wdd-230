@@ -84,4 +84,14 @@ form {
       font-size: 20px;
       font-family: 'Times New Roman', Times, serif;
   }
+
+  iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.output {
+    background: #eee;
+}
+
                   
