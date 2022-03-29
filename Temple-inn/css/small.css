@@ -108,3 +108,20 @@ nav ul li.active a{
     padding: 0px;
     box-shadow: 5px 10px #999999;
 }
+
+.grid-layout-wv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+  }
+
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3; 
+    border: 0px solid #cccccc;
+    padding: 0px;
+    box-shadow: 5px 10px #999999;
+}
