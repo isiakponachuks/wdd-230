@@ -18,16 +18,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0;
-    grid-column: 1 / 4;
-    grid-row: 1 / 4; 
-    border: 0px solid #cccccc;
-    padding: 0px;
-    box-shadow: 5px 10px #999999;
-}
+
 img {
     max-width: 100%;
   }
@@ -40,7 +31,7 @@ img {
      align-items: center;
      justify-content: space-between;
      margin: 0 auto;
-     border-bottom: 1px solid #bbb;
+     border-bottom: 2px solid #bbb;
      max-width: 1200px;
      
  }
@@ -49,6 +40,27 @@ img {
     content:"";
     display: table;
     clear: both;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+}
+
+.snow {
+    letter-spacing: 1pt;
+    color:#866d6d;
+    font-weight: 100;
+    font-size: 0.2rem;
 }
 
 .social {
@@ -74,10 +86,10 @@ nav {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 
 }
-    nav ul {
-    list-style-type: none;
-    display: inline-block;
-    padding:0px 15px;
+nav ul {
+list-style-type: none;
+display: inline-block;
+padding:0px 15px;
   
 }
 
@@ -98,18 +110,7 @@ nav ul li.active a{
     color:#fff;
 }
 
-.container {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0;
-    grid-column: 1 / 4;
-    grid-row: 1 / 4; 
-    border: 0px solid #cccccc;
-    padding: 0px;
-    box-shadow: 5px 10px #999999;
-}
-
-.grid-layout-wv {
+.grid-layout-vw {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
@@ -120,8 +121,49 @@ nav ul li.active a{
     max-width: 800px; /* Maximum width */
     margin: 0 auto;
     grid-column: 2 / 3;
-    grid-row: 1 / 3; 
-    border: 0px solid #cccccc;
-    padding: 0px;
+    grid-row: 1 / 2;  
     box-shadow: 5px 10px #999999;
+}
+
+.overlay{
+    position: absolute; /* Position the background text */
+    bottom: 30%; /* At the bottom. Use top:0 to append it to the top */
+    width: 30%; /* Full width */
+    padding: 15px; /* Some padding */
+    margin-right: 5em;
+}
+/* The layout styles for the grid functionality */
+
+.event1-home{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: tan;
+    text-align: left;
+}
+
+.event2-home{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    background-color: tan;
+    text-align: left;
+  }
+
+
+  .banner{
+    grid-column: 1 / 6;
+    grid-row: 2 / 6;
+    background-color:transparent;
+   
+  }
+
+  footer {
+    background-color: #808080;
+	padding: 10px 0;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid #bbb;
+    max-width: 1200px;
+    text-align: center;
+	
 }

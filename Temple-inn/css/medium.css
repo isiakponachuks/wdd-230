@@ -1,0 +1,29 @@
+@media only screen and (min-width:40rem){
+    nav button {display: none;}
+    
+    nav ul#primarynav {
+        display:flex;
+        justify-content: right;
+        margin-left: 0vw;
+        border-left: 0px solid rgba(0,0,0,0.5);
+    }
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.5);
+    }
+    
+        .grid-layout-vw {
+        display:grid;
+        grid-template-columns: 1fr;
+        column-gap: 2em;
+        
+        }
+        .grid-layout-vw {
+          display: block;
+        }
+        .grid-layout-vw,nav, ul{
+          display: block;
+        }
+      }
+    
