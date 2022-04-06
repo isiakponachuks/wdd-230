@@ -32,7 +32,7 @@ img {
      justify-content: space-between;
      margin: 0 auto;
      border-bottom: 2px solid #bbb;
-     max-width: 1200px;
+     
      
  }
 
@@ -165,17 +165,22 @@ nav ul li.active a{
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     background-color: tan;
-    text-align: left;
+    
+
 }
 .temple{
     float:right;
-    width: 50%;
-    margin: 0 0 0 20;
     
 }
-figure.temple figcaption{
-    text-align: center; font-size:  .75em;
+
+.event5-home {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+    background-color:transparent;
+    
+
 }
+
 
   footer {
     background-color: #808080;
@@ -184,7 +189,6 @@ figure.temple figcaption{
     display:grid;
     grid-template-columns: 1fr;
     border-bottom: 1px solid #bbb;
-    max-width: 1200px;
     text-align: center;
 	
 }
