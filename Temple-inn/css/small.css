@@ -184,6 +184,61 @@ nav ul li.active a{
 
 }
 
+/* Hamburger Syntax */
+
+@media screen and (max-width: 550px) {
+    .home-grid {
+      display: block;
+    }
+    .home-grid,nav, ul{
+      display: block;
+    }
+  }
+  
+  
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open  span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
+
+#hamburgerBtn{
+    width: 50px;
+    padding: 0px;
+    list-style: none;
+    background-color:#eceff1;
+    height: 100%;
+
+    
+   
+}
+
+/* Temple Directory */
+
+.cards {
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+    background-color: lightgray;
+  }
+  
+  .cards section{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #D9D9F3;
+    overflow: hidden;
+  }
+  
+  .cards section img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+  }
+  
+
 /* Weather app css */
 
 #container{
@@ -361,4 +416,9 @@ form label.top, input:required:valid{
     border-bottom: 1px solid #bbb;
     text-align: center;
 	
+}
+
+.lastlist{
+    display: flex;
+    justify-content: space-evenly;
 }
