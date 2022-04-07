@@ -142,13 +142,17 @@ nav ul li.active a{
     padding: 2px;
 }
 
+@media (max-width:767px)
+{
 .event2-home{
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     background-color: tan;
     text-align: left;
     padding: 2px;
+
   }
+}
 
   .banner{
     grid-column: 1 / 6;
