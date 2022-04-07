@@ -27,10 +27,10 @@ fetch(requestURL)
         Phone.textContent += 'Phone: ' + temple[i].Phone;
         email.textContent += 'email: ' + temple[i].email;
         Services.textContent += 'Services: ' + temple[i].Services;
-        History.textContent += 'History: ' + temple[i].History;
+        History.textContent += 'history: ' + temple[i].History;
         Ordinance.textContent += 'Ordinance: ' + temple[i].Ordinance;
         Session.textContent += 'Session: ' + temple[i].Session;
-        Templeclosure.textContent += 'Templeclosure: ' + temple[i].Templeclosure;
+        Templeclosure.textContent += 'templeclosure: ' + temple[i].Templeclosure;
 
 
         
