@@ -1,91 +1,31 @@
+const apiURL =
+"https://api.openweathermap.org/data/2.5/weather?q=Lagos,ng&APPID=8dc8da65a8bf4742511f5faaf0ae532f";
+fetch(apiURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    document.querySelector('#current-temp').textContent = Math.round(jsObject.main.temp_max - 273.15 );
 
-const iconElement = document.querySelector(".weather-icon");
-const tempElement = document.querySelector(".temperature-value p");
-const descElement = document.querySelector(".temperature-description p");
-const locationElement = document.querySelector(".location p");
-const notificationElement = document.querySelector(".notification");
 
-// App data
-const weather = {};
+let degree = (jsObject.main.temp_max - 32) * 5/9;
+const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+const desc = jsObject.weather[0].description;
 
-weather.temperature = {
-    unit : "celsius"
+
+document.querySelector('#icon-src').textContent = iconsrc;
+document.querySelector('#weathericon').setAttribute('src', iconsrc);
+document.querySelector('#weathericon').setAttribute('alt', desc);
+document.querySelector('figcaption').textContent = desc;
+
+
+const t = Math.round(jsObject.main.temp_max - 273.15 );
+const s =  jsObject.wind.speed;
+
+if(t <= 50 && s > 3) {
+    const windchill = 35.74 + 0.6215 * t - 35.75 * Math.pow(s,0.16) + 0.4275 * t * Math.pow(s,0.16)
+    document.querySelector("#windchill").innerHTML = `${Math.round(windchill)}&#176;`;
 }
-
-// APP CONSTS AND VARS
-const KELVIN = 273;
-// API KEY
-const key = "8dc8da65a8bf4742511f5faaf0ae532f";
-
-// CHECK IF BROWSER SUPPORTS GEOLOCATION
-if('geolocation' in navigator){
-    navigator.geolocation.getCurrentPosition(setPosition, showError);
-}else{
-    notificationElement.style.display = "block";
-    notificationElement.innerHTML = "<p>Browser doesn't Support Geolocation</p>";
+else {
+    document.querySelector("#windchill").innerHTML = "N/A"
 }
-
-// SET USER'S POSITION
-function setPosition(position){
-    let latitude = position.coords.latitude;
-    let longitude = position.coords.longitude;
-    
-    getWeather(latitude, longitude);
-}
-
-// SHOW ERROR WHEN THERE IS AN ISSUE WITH GEOLOCATION SERVICE
-function showError(error){
-    notificationElement.style.display = "block";
-    notificationElement.innerHTML = `<p> ${error.message} </p>`;
-}
-
-// GET WEATHER FROM API PROVIDER
-function getWeather(latitude, longitude){
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
-    
-    fetch(api)
-        .then(function(response){
-            let data = response.json();
-            return data;
-        })
-        .then(function(data){
-            weather.temperature.value = Math.floor(data.main.temp - KELVIN);
-            weather.description = data.weather[0].description;
-            weather.iconId = data.weather[0].icon;
-            weather.city = data.name;
-            weather.country = data.sys.country;
-        })
-        .then(function(){
-            displayWeather();
-        });
-}
-
-// DISPLAY WEATHER TO UI
-function displayWeather(){
-    iconElement.innerHTML = `<img src="icons/${weather.iconId}.png"/>`;
-    tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
-    descElement.innerHTML = weather.description;
-    locationElement.innerHTML = `${weather.city}, ${weather.country}`;
-}
-
-// C to F conversion
-function celsiusToFahrenheit(temperature){
-    return (temperature * 9/5) + 32;
-}
-
-// WHEN THE USER CLICKS ON THE TEMPERATURE ELEMENET
-tempElement.addEventListener("click", function(){
-    if(weather.temperature.value === undefined) return;
-    
-    if(weather.temperature.unit == "celsius"){
-        let fahrenheit = celsiusToFahrenheit(weather.temperature.value);
-        fahrenheit = Math.floor(fahrenheit);
-        
-        tempElement.innerHTML = `${fahrenheit}°<span>F</span>`;
-        weather.temperature.unit = "fahrenheit";
-    }else{
-        tempElement.innerHTML = `${weather.temperature.value}°<span>C</span>`;
-        weather.temperature.unit = "celsius"
-    }
-});
-
+  });
