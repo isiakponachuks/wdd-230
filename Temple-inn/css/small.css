@@ -166,13 +166,14 @@ nav ul li.active a{
 .event4-home {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    background-color: tan;
-    padding: 2px;
+    background-color: teal;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 
 }
 .temple{
-    float:right;
+    float: left;
     
 }
 
