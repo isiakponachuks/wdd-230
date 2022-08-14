@@ -1,3 +1,4 @@
+alert("Welcome Naija Major Quiz");
 (function(){
     // Functions
     function buildQuiz(){
